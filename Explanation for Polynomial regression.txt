@@ -1,0 +1,30 @@
+Summary
+For the following program we have used polynomial regression to analyze the data.
+We have chosen to work with only five factors to reduce computational power and make the model simpler.
+First we import the dataset from a csv file and then store it in a data frame called data.
+Using trial and error we have found the best combination of quadaratic and linear variable which gives us a low 
+error but does not overfit our given dataset.
+
+Explanation
+First we traverse through our dataset(data), then we either just add the features, square them or multiply them with
+another feature to another feature depending on our model.
+In this case based on trial and error our combination of features for a row in a matrix is
+[x1 x1^2 x1*x5 x2 x2*x4 x3 x4 x5 x5**2]
+After creating of values that we want perform linear regression on it.
+
+After performing linear regression on our data. We tried to reduce the value of the mean squared error that 
+we get from the data plus the sum of sqaures of the coeffiecients, by reducing the value of this term we
+ensure the proper balance between the bias and variance of our given model.
+
+Finally we just take an input from the user and then we apply it to the model and get the probability of survival based 
+on the input.
+
+Team members
+Ishaan Samant
+Nikhil Komal Kumar
+Chaitanya M
+Vineeth Krishnan
+Sukeerthi Adi
+Inderpal Singh
+Swathi k
+Amrutha
