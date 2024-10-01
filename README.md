@@ -1,2 +1,2 @@
 # Andrew-ng-python
-Trying to implement Andrews ng's course assignments in python
+Implementing Andrew ng's course project in python to help more people understand his course.
